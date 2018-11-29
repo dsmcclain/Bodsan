@@ -129,6 +129,28 @@ h2 + p {
   color: #fff;
 }
 
+/* FOOTER STYLES */
+.footer {
+  background-color: #ccebff;
+  padding: 10vh 0 15vh;
+  text-align: center;
+}
+.footer-logo {
+  color: #000;
+  font-size: 4em;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer h3 {
+  color: #ff3333;
+  padding-top: 1.5em;
+  text-transform: uppercase;
+}
+.footer h3 span {
+  color: #000;
+}
+
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
