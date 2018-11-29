@@ -68,6 +68,29 @@ h2 + p {
 }
 
 /* HEADER STYLES */
+.header {
+  background-color: #000;
+  color: #fff;
+}
+.header-logo {
+  background-color: #000;
+  box-sizing: border-box;
+  display: block;
+  height: 10vh;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  width: 25vh;
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header-logo:hover,
+.header-logo:active {
+  background-color: #ed6e2f;
+}
 .header-nav {
   float: right;
   padding: 5.5vh 60px 0 0;
@@ -77,11 +100,11 @@ h2 + p {
   margin-left: 1em;
 }
 .header-nav > li ~ li {
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
   padding-left: 1em;
 }
 .header-nav a {
-  color: #000;
+  color: #fff;
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
@@ -95,18 +118,7 @@ h2 + p {
   color: #ed6e2f;
 }
 .header-nav > li:first-child a:hover {
-  color: #000;
-}
-.header-logo {
-  color: #000;
-  font-size: 2em;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.header-logo:hover,
-.header-logo:active {
-  opacity: 0.5;
+  color: #fff;
 }
 
 /* HERO STYLES */
