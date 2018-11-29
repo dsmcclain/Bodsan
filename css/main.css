@@ -148,7 +148,7 @@ h2 + p {
 }
 .footer h3 {
   color: #ff3333;
-  padding-top: 1.5em;
+  padding: 1.5em;
   text-transform: uppercase;
 }
 .footer h3 span {
