@@ -47,6 +47,10 @@ a img {
 /* END RESET*/
 
 /* GLOBAL STYLES */
+html {
+  box-shadow: 0 0 0 30px #ccebff inset;
+  padding: 0 30px;
+}
 a {
   color:  #f00;
 }
@@ -69,19 +73,23 @@ h2 + p {
 
 /* HEADER STYLES */
 .header {
-  background-color: #000;
+  background-color: #ccebff;
   color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
 }
 .header-logo {
-  background-color: #000;
+  background-color: #ccebff;
   box-sizing: border-box;
   display: block;
   height: 10vh;
+  left: -30px;
   padding-top: 10px;
   position: relative;
   text-align: center;
   width: 25vh;
-  color: #fff;
+  color: #000;
   font-size: 2em;
   font-weight: bold;
   text-decoration: none;
@@ -104,7 +112,7 @@ h2 + p {
   padding-left: 1em;
 }
 .header-nav a {
-  color: #fff;
+  color: #000;
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
