@@ -111,15 +111,15 @@ h2 + p {
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   padding-left: 1em;
 }
-.header-nav a {
+.nav-links a {
   color: #000;
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
 }
-.header-nav a:hover,
-.header-nav a:active {
+.nav-links a:hover,
+.nav-links a:active {
   color: #ed6e2f;
 }
 .header-nav > li:first-child a {
@@ -141,6 +141,10 @@ h2 + p {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+}
+.footer-nav li {
+  display: inline-block;
+  margin: 2em 1em 0;
 }
 .footer h3 {
   color: #ff3333;
