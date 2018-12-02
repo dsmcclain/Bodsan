@@ -178,7 +178,7 @@ h2 + p {
   transform: translate(-50%, 0);
 }
 .hero-home {
-  background-image: url(/images/innocent!.jpg);
+  background-image: url(/images/IMG-2791.jpg);
   background-position: center top;
 }
 .hero-content {
@@ -240,7 +240,7 @@ h2 + p {
   width: 90vw;
 }
 .home-section h2 {
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0 1.5rem 0;
   text-align: center;
 }
 .home-callout {
