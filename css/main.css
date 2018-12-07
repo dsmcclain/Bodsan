@@ -200,6 +200,14 @@ h4 {
 .blog-posts .post-header {
   font-size: 0.8rem;
 }
+.blog-posts > a {
+  float: right;
+  margin-right: 0.8em;
+}
+.blog-posts > a ~ a {
+  border-right: 1px solid rgba(40, 40, 40, 0.8);
+  padding-right: 0.8em;
+}
 .post-header {
   margin-bottom: 1.5em;
 }
@@ -405,8 +413,19 @@ h4 {
   width: 90vw;
 }
 .home-section h2 {
-  margin: 1.5rem 0 1.5rem 0;
+  margin: 1.5rem;
   text-align: center;
+}
+.home-section h4 {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.home-section .post-header {
+  text-align: center;
+}
+.home-section .blog-posts {
+  margin: auto;
+  width: 75%;
 }
 .home-callout {
   align-items: center;
