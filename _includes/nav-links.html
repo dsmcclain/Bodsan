@@ -1,6 +1,21 @@
 <li><a href="/">Home</a></li>
-<li><a href="/gallery">Gallery</a></li>
-<li><a href="#">Heroes</a></li>
-<li><a href="#">Resources</a></li>
-<li><a href="/archives">Archives</a></li>
-<li><a href="#">About Me</a></li>
+<li class="dropdown">
+	<a class="drop-trigger" href="/archives">BODNON BLOG</a>
+	<ul class="drop-menu">
+		{% for post in site.posts limit:1 %}
+			<li><a href="{{ post.url }}">Latest Post</a></li>
+		{% endfor %}
+		<li><a href="#">Heroes</a></li>
+		<li><a href="#">Resources</a></li>
+		<li><a href="/gallery">Gallery</a></li>
+		<li><a href="/archives">Archives</a></li>
+	</ul>
+</li>
+<li class="dropdown">
+	<a class="drop-trigger" href="#">About</a>
+	<ul class="drop-menu">
+		<li><a href="#">What is BODNON?</a></li>
+		<li><a href="#">About Me</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</li>
