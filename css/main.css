@@ -548,6 +548,9 @@ h4 {
   border-radius: 99px;
   height: 4em;
 }
+.about-me h2 {
+  padding-top: 2em;
+}
 
 /* BIO STYLES */
 .bio-wrapper {
