@@ -9,6 +9,11 @@ function activateGallery() {
 			let newAlt = thumbnail.alt;
 			mainImage.setAttribute("src", newImageSrc);
 			mainImage.setAttribute("alt", newAlt);
+
+			// Change which image is current.
+			document.querySelector(".current").classList.remove("current");
+			thumbnail.parentNode.classList.add("current");
 		});
 	});
 }
+
