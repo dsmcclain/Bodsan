@@ -11,9 +11,15 @@ function activateGallery() {
 			mainImage.setAttribute("alt", newAlt);
 
 			// Change which image is current.
-			let currentClass = "current";
-			document.querySelector(currentClass).classList.remove(currentClass);
-			thumbnail.parentNode.classList.add(currentClass);
+			document.querySelector(".current").classList.remove("current");
+			thumbnail.parentNode.classList.add("current");
+
+			// Update image title and description.
+			let galleryInfo   = document.querySelector("#gallery-info");
+			let title 	      = galleryInfo.querySelector(".title");
+			let description   = galleryInfo.querySelector(".description");
+			title.innerHTML       = thumbnail.dataset.title;
+			description.innerHTML = thumbnail.dataset.description;
 		});
 	});
 }
