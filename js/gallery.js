@@ -11,8 +11,9 @@ function activateGallery() {
 			mainImage.setAttribute("alt", newAlt);
 
 			// Change which image is current.
-			document.querySelector(".current").classList.remove("current");
-			thumbnail.parentNode.classList.add("current");
+			let currentClass = "current";
+			document.querySelector(currentClass).classList.remove(currentClass);
+			thumbnail.parentNode.classList.add(currentClass);
 		});
 	});
 }
