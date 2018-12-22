@@ -3,9 +3,12 @@ function activateGallery() {
 	let mainImage = document.querySelector("#gallery-photo > img");
 
 	thumbnails.forEach(function(thumbnail) {
+		let newImageSrc = thumbnail.dataset.largeVersion;
+		let largeVersion = new Image();
+		largeVersion.src = newImageSrc;
+		
 		thumbnail.addEventListener("click", function() {
 			// Set clicked image as main image.
-			let newImageSrc = thumbnail.dataset.largeVersion;
 			let newAlt = thumbnail.alt;
 			mainImage.setAttribute("src", newImageSrc);
 			mainImage.setAttribute("alt", newAlt);
@@ -23,4 +26,3 @@ function activateGallery() {
 		});
 	});
 }
-
