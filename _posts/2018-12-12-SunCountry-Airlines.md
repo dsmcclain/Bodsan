@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SunCountry Airlines - BODNON at 30,000 Feet
+title: SunCountry Airlines - BODSAN at 30,000 Feet
 postHero: /images/Sun-Country-737.jpg
 author: Dylan
 gravatar: https://s.gravatar.com/avatar/0800658b295c8d2c3359dace76431a8e?s=80
